@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+      body {
+        font-family:
+          Inter,
+          ui-sans-serif,
+          system-ui,
+          -apple-system,
+          BlinkMacSystemFont,
+          "Segoe UI",
+          sans-serif;
+      }
+    </style>
+    <title>Uppgift 1</title>
+  </head>
+  <body class="bg-[#d8d8d8] p-2 sm:p-4 text-[#2f3438]">
+    <main class="mx-auto max-w-[1180px] overflow-hidden bg-[#fafaf9] shadow-sm">
+      <!-- Header -->
+      <header
+        class="relative flex h-10 items-center justify-between bg-[#dedede] px-5 sm:px-7"
+      >
+        <div class="text-[10px] font-semibold text-[#363b40]">Logo</div>
+
+        <nav
+          class="absolute left-1/2 flex -translate-x-1/2 items-center gap-4 whitespace-nowrap text-[8px] font-medium text-[#2d353a] sm:gap-7"
+        >
+          <a href="#">Link one</a>
+          <a href="#">Link two</a>
+          <a href="#">Link three</a>
+          <a href="#">Link four</a>
+        </nav>
+
+        <button
+          class="rounded-sm bg-[#454a4e] px-3 py-1 text-[7px] font-medium text-white shadow-sm"
+        >
+          Button
+        </button>
+      </header>
+
+      <!-- Hero -->
+      <section
+        class="flex flex-row items-center justify-between gap-6 px-5 py-9 sm:px-8 sm:gap-8 md:gap-12 md:px-16 md:py-12"
+      >
+        <div class="min-w-0 flex-1 max-w-[470px]">
+          <h1
+            class="text-lg font-semibold leading-tight tracking-wide text-[#21272c] sm:text-2xl md:text-3xl"
+          >
+            Medium length hero<br />headline
+          </h1>
+          <p class="mt-5 max-w-[410px] text-[9px] leading-5 text-[#2f363b]">
+            Lorem ipsum dolor sit amet et delectus<br class="hidden sm:block" />
+            commodo has nisl cuopisae egestas at vix<br
+              class="hidden sm:block"
+            />
+            ei eum an brute copiosa hendrerit.
+          </p>
+          <div class="mt-4 flex gap-2">
+            <button
+              class="rounded-sm bg-[#4b5054] px-3 py-1.5 text-[7px] text-white"
+            >
+              Button
+            </button>
+            <button
+              class="rounded border border-[#d0d0d0] bg-white px-3 py-1.5 text-[7px] text-[#646b70]"
+            >
+              Button
+            </button>
+          </div>
+        </div>
+
+        <img
+          src="https://picsum.photos/200"
+          alt="Decorative hero"
+          class="h-36 w-[42%] shrink-0 object-cover sm:h-52 md:h-64 md:w-[47%]"
+        />
+      </section>
+
+      <!-- Features -->
+      <section
+        class="flex flex-col gap-8 px-5 pb-9 sm:px-8 md:flex-row md:gap-16 md:px-16 md:pb-12"
+      >
+        <div class="md:w-1/2">
+          <div class="text-[7px] font-semibold text-[#6a7075]">Tagline</div>
+          <h2
+            class="mt-4 text-lg font-semibold leading-tight tracking-wide text-[#1f252a] sm:text-xl"
+          >
+            Medium length features<br />headline
+          </h2>
+          <p class="mt-5 max-w-[410px] text-[9px] leading-5 text-[#2e3539]">
+            Lorem ipsum dolor sit amet et delectus<br class="hidden sm:block" />
+            commodo has nisl cuopisae egestas at vix ad<br
+              class="hidden sm:block"
+            />
+            ei eum an brute copiosa hendrerit. Esse animum<br
+              class="hidden sm:block"
+            />
+            an. Per facer affert te.
+          </p>
+        </div>
+
+        <div class="flex flex-col gap-6 md:w-1/2">
+          <div class="flex gap-4">
+            <div
+              class="flex h-7 w-7 shrink-0 items-center justify-center rounded-sm bg-[#e4e5e5]"
+            >
+              <svg
+                class="h-3 w-3"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#666d72"
+                stroke-width="1.7"
+              >
+                <circle cx="12" cy="12" r="7" />
+                <path d="M12 8v4l3 2" />
+              </svg>
+            </div>
+            <div>
+              <h3 class="text-[8px] font-semibold text-[#555b60]">
+                Medium length headline
+              </h3>
+              <p class="mt-2 text-[8px] leading-4">
+                Lorem ipsum dolor sit amet et delectus<br />accommodare his
+                consul copisae.
+              </p>
+            </div>
+          </div>
+
+          <div class="flex gap-4">
+            <div
+              class="flex h-7 w-7 shrink-0 items-center justify-center rounded-sm bg-[#e4e5e5]"
+            >
+              <svg
+                class="h-3 w-3"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#666d72"
+                stroke-width="1.7"
+              >
+                <path d="M9 18a6 6 0 0 1 0-12" />
+                <path d="M9 6h5a4 4 0 1 1 0 8h-2" />
+                <path d="M12 10l-3 2 3 2" />
+              </svg>
+            </div>
+            <div>
+              <h3 class="text-[8px] font-semibold text-[#555b60]">
+                Medium length headline
+              </h3>
+              <p class="mt-2 text-[8px] leading-4">
+                Lorem ipsum dolor sit amet et delectus<br />accommodare his
+                consul copisae.
+              </p>
+            </div>
+          </div>
+
+          <div class="flex gap-4">
+            <div
+              class="flex h-7 w-7 shrink-0 items-center justify-center rounded-sm bg-[#e4e5e5]"
+            >
+              <svg
+                class="h-3 w-3"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#666d72"
+                stroke-width="1.7"
+              >
+                <path
+                  d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8L12 3z"
+                />
+              </svg>
+            </div>
+            <div>
+              <h3 class="text-[8px] font-semibold text-[#21282d]">
+                Medium length headline
+              </h3>
+              <p class="mt-2 text-[8px] leading-4 text-[#2e3438]">
+                Lorem ipsum dolor sit amet et delectus<br />accommodare his
+                consul copisae.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Gallery -->
+      <section class="px-5 pb-8 sm:px-8 md:px-16">
+        <h2
+          class="mb-5 text-center text-xl font-semibold tracking-wide text-[#1f262b] sm:text-2xl"
+        >
+          Image Gallery
+        </h2>
+
+        <div class="flex flex-col gap-2 md:flex-row md:items-stretch">
+          <img
+            src="https://picsum.photos/200"
+            alt="Gallery image"
+            class="h-[calc(2*7rem+0.5rem)] w-full object-cover sm:h-[calc(2*10rem+0.5rem)] md:w-[48%]"
+          />
+
+          <div class="grid flex-1 grid-cols-2 gap-2">
+            <img
+              src="https://picsum.photos/200"
+              alt="Gallery image"
+              class="h-28 w-full object-cover sm:h-40"
+            />
+            <img
+              src="https://picsum.photos/200"
+              alt="Gallery image"
+              class="h-28 w-full object-cover sm:h-40"
+            />
+            <img
+              src="https://picsum.photos/200"
+              alt="Gallery image"
+              class="h-28 w-full object-cover sm:h-40"
+            />
+            <img
+              src="https://picsum.photos/200"
+              alt="Gallery image"
+              class="h-28 w-full object-cover sm:h-40"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="border-t border-[#e5e5e5] px-5 pt-8 sm:px-8 md:px-16">
+        <div class="flex flex-col gap-8 md:flex-row md:justify-between">
+          <div class="min-w-[180px]">
+            <div class="text-xs font-semibold text-[#1f252a]">Logo</div>
+            <p class="mt-4 text-[7px] leading-3 text-[#2d353b]">
+              Address:<br />123 Main Street, City<br />State, Country
+            </p>
+            <div class="mt-4 flex gap-3 text-[9px] text-[#2f363a]">
+              <span>◉</span><span>◉</span><span>♥</span>
+            </div>
+          </div>
+
+          <div
+            class="grid grid-cols-3 gap-10 text-[8px] text-[#2a3136] sm:gap-16"
+          >
+            <div>
+              <h4 class="mb-3 font-semibold">Column one</h4>
+              <div class="flex flex-col gap-2">
+                <a href="#">Link one</a><a href="#">Link two</a
+                ><a href="#">Link three</a><a href="#">Link four</a>
+              </div>
+            </div>
+            <div>
+              <h4 class="mb-3 font-semibold">Column two</h4>
+              <div class="flex flex-col gap-2">
+                <a href="#">Link five</a><a href="#">Link six</a
+                ><a href="#">Link seven</a><a href="#">Link eight</a>
+              </div>
+            </div>
+            <div>
+              <h4 class="mb-3 font-semibold">Column three</h4>
+              <div class="flex flex-col gap-2">
+                <a href="#">Link nine</a><a href="#">Link ten</a
+                ><a href="#">Link eleven</a><a href="#">Link twelve</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="mt-8 flex flex-col items-center justify-center gap-3 border-t border-[#ededed] py-5 text-[7px] text-[#4a5359] sm:flex-row sm:gap-6"
+        >
+          <span>© 2024 Your Website. All rights reserved.</span>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
